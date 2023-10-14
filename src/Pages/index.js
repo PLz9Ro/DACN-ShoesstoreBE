@@ -1,0 +1,5 @@
+export {default as Home} from '../components/Home/Home'
+export{default as ProductPage} from'./ProductPage'
+export{default as Cart} from'./Cart'
+export{default as Checkout} from './Checkout'
+export{default as Order} from'./Order'
