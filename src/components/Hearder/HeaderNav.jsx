@@ -327,16 +327,13 @@ export default function HeaderNav() {
         </Dialog>
       </Transition.Root>
 
-      <header className="relative bg-white">
-        <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
-          Get free delivery on orders over $100
-        </p>
-
+      <header className="relative bg-white ">
+      
         <nav
-          aria-label="Top"
+          aria-label="Top "
           className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
         >
-          <div className="border-b border-gray-200">
+          <div className="border-b border-gray-200 py-5">
             <div className="flex h-16 items-center">
               <button
                 type="button"
@@ -530,7 +527,7 @@ export default function HeaderNav() {
                     <span className="sr-only">, change currency</span>
                   </a>
                 </div> */}
-                <div className="hidden lg:ml-8 lg:flex">
+                <div className="hidden lg:ml-8 lg:flex font-normal">
                   <Menu>
                     <MenuItem >
                       Profile
