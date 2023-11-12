@@ -12,131 +12,232 @@ import { MenuItem } from "@mui/material";
 const navigation = {
   categories: [
     {
-      id: "women",
-      name: "Women",
+      id: "Nike",
+      name: "Nike",
       featured: [
         {
-          name: "New Arrivals",
+          name: "New Nike",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg",
+            "https://giaysneaker.store/media/magefan_blog/hinh-anh-moi-nhat-cua-doi-giay-sneaker-nike-air-force-1-react-mid-grey-1.jpg",
           imageAlt:
             "Models sitting back to back, wearing Basic Tee in black and bone.",
         },
         {
-          name: "Basic Tees",
+          name: "Basic Nike",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg",
+            "https://kingshoes.vn/data/upload/media/849560-007-giay-nike-air-max-2017-gia-tot-den-king-shoes-1.jpg",
           imageAlt:
             "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.",
         },
       ],
       sections: [
         {
-          id: "clothing",
-          name: "Clothing",
+          id: "Women",
+          name: "Women",
           items: [
-            { name: "Tops", href: "#" },
-            { name: "Dresses", href: "#" },
-            { name: "Pants", href: "#" },
-            { name: "Denim", href: "#" },
-            { name: "Sweaters", href: "#" },
-            { name: "T-Shirts", href: "#" },
-            { name: "Jackets", href: "#" },
-            { name: "Activewear", href: "#" },
-            { name: "Browse All", href: "#" },
+            { name: "Giày Nike Nữ Thời Trang", href: "#" },
+            { name: "Giày Nike Nữ Chạy Bộ", href: "#" },
+            { name: "Giày Nike Nữ Luyện Tập", href: "#" },
+        
           ],
         },
         {
-          id: "accessories",
-          name: "Accessories",
+          id: "Men",
+          name: "Men",
           items: [
-            { name: "Watches", href: "#" },
-            { name: "Wallets", href: "#" },
-            { name: "Bags", href: "#" },
-            { name: "Sunglasses", href: "#" },
-            { name: "Hats", href: "#" },
-            { name: "Belts", href: "#" },
-          ],
-        },
-        {
-          id: "brands",
-          name: "Brands",
-          items: [
-            { name: "Full Nelson", href: "#" },
-            { name: "My Way", href: "#" },
-            { name: "Re-Arranged", href: "#" },
-            { name: "Counterfeit", href: "#" },
-            { name: "Significant Other", href: "#" },
+            { name: " Giày Nike Nam Thời Trang", href: "#" },
+            { name: " Giày Nike Nam Chạy Bộ", href: "#" },
+            { name: " Giày Nike Nam Luyện Tập", href: "#" },
+            { name: " Giày Nike Nam Bóng Rổ", href: "#" },
+            { name: " Giày Nike Nam Bóng Đá", href: "#" },
           ],
         },
       ],
     },
     {
-      id: "men",
-      name: "Men",
+      id: "Adidas",
+      name: "Adidas",
       featured: [
         {
-          name: "New Arrivals",
+          name: "New Adidas",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg",
+            "https://media.karousell.com/media/photos/products/2022/4/10/bnib_authentic_adidas_ultraboo_1649593866_55fe4efe_progressive.jpg",
           imageAlt:
-            "Drawstring top with elastic loop closure and textured interior padding.",
+            "Models sitting back to back, wearing Basic Tee in black and bone.",
         },
         {
-          name: "Artwork Tees",
+          name: "Basic Adidas",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg",
+            "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/09c5ea6df1bd4be6baaaac5e003e7047_9366/Giay_Co_Thap_Forum_trang_FY7756_01_standard.jpg",
           imageAlt:
-            "Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.",
+            "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.",
         },
       ],
       sections: [
         {
-          id: "clothing",
-          name: "Clothing",
+          id: "Women",
+          name: "Women",
           items: [
-            { name: "Tops", href: "#" },
-            { name: "Pants", href: "#" },
-            { name: "Sweaters", href: "#" },
-            { name: "T-Shirts", href: "#" },
-            { name: "Jackets", href: "#" },
-            { name: "Activewear", href: "#" },
-            { name: "Browse All", href: "#" },
+            { name: "Giày Adidas Nữ Thời Trang", href: "#" },
+            { name: "Giày Adidas Nữ Chạy Bộ", href: "#" },
+            { name: "Giày Adidas Nữ Luyện Tập", href: "#" },
+        
           ],
         },
         {
-          id: "accessories",
-          name: "Accessories",
+          id: "Men",
+          name: "Men",
           items: [
-            { name: "Watches", href: "#" },
-            { name: "Wallets", href: "#" },
-            { name: "Bags", href: "#" },
-            { name: "Sunglasses", href: "#" },
-            { name: "Hats", href: "#" },
-            { name: "Belts", href: "#" },
+            { name: " Giày Adidas Nam Thời Trang", href: "#" },
+            { name: " Giày Adidas Nam Chạy Bộ", href: "#" },
+            { name: " Giày Adidas Nam Luyện Tập", href: "#" },
+            { name: " Giày Adidas Nam Bóng Rổ", href: "#" },
+            { name: " Giày Adidas Nam Bóng Đá", href: "#" },
+          ],
+        },
+      ],
+    },
+    {
+      id: "Jordan",
+      name: "jordan",
+      featured: [
+        {
+          name: "New Jordan",
+          href: "#",
+          imageSrc:
+            "https://sneakernews.com/wp-content/uploads/2021/01/air-jordan-35-cny-chinese-new-year-DD2234-001-5.jpg",
+          imageAlt:
+            "Models sitting back to back, wearing Basic Tee in black and bone.",
+        },
+        {
+          name: "Basic Shoes",
+          href: "#",
+          imageSrc:
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/24750e81-85ed-4b0e-8cd8-becf0cd97b2f/air-jordan-1-mid-shoes-7cdjgS.png",
+          imageAlt:
+            "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.",
+        },
+      ],
+      sections: [
+        {
+          id: "Women",
+          name: "Women",
+          items: [
+            { name: "Giày Jordan Nữ Thời Trang", href: "#" },
+            { name: "Giày Jordan Nữ Chạy Bộ", href: "#" },
+            { name: "Giày Jordan Nữ Luyện Tập", href: "#" },
+        
           ],
         },
         {
-          id: "brands",
-          name: "Brands",
+          id: "Men",
+          name: "Men",
           items: [
-            { name: "Re-Arranged", href: "#" },
-            { name: "Counterfeit", href: "#" },
-            { name: "Full Nelson", href: "#" },
-            { name: "My Way", href: "#" },
+            { name: " Giày Jordan Nam Thời Trang", href: "#" },
+            { name: " Giày Jordan Nam Chạy Bộ", href: "#" },
+            { name: " Giày Jordan Nam Luyện Tập", href: "#" },
+            { name: " Giày Jordan Nam Bóng Rổ", href: "#" },
+            { name: " Giày Jordan Nam Bóng Đá", href: "#" },
+          ],
+        },
+      ], 
+    },
+    {
+      id: "YeeZy",
+      name: "YeeZy",
+      featured: [
+        {
+          name: "New YeeZy",
+          href: "#",
+          imageSrc:
+            "https://cdn.24.co.za/files/Cms/General/d/1875/c9d604fa43f14bc3bae27cbd5fc0b6bc.jpg",
+          imageAlt:
+            "Models sitting back to back, wearing Basic Tee in black and bone.",
+        },
+        {
+          name: "Basic Shoes",
+          href: "#",
+          imageSrc:
+            "https://giaygiare.vn/upload/sanpham/large/adidas-yeezy-boost-350-v2-bone-ra-mat-21-03-2022.jpg",
+          imageAlt:
+            "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.",
+        },
+      ],
+      sections: [
+        {
+          id: "Women",
+          name: "Women",
+          items: [
+            { name: "Giày YeeZy Nữ Thời Trang", href: "#" },
+            { name: "Giày YeeZy Nữ Chạy Bộ", href: "#" },
+            { name: "Giày YeeZy Nữ Luyện Tập", href: "#" },
+        
+          ],
+        },
+        {
+          id: "Men",
+          name: "Men",
+          items: [
+            { name: " Giày YeeZy Nam Thời Trang", href: "#" },
+            { name: " Giày YeeZy Nam Chạy Bộ", href: "#" },
+            { name: " Giày YeeZy Nam Luyện Tập", href: "#" },
+            { name: " Giày YeeZy Nam Bóng Rổ", href: "#" },
+            { name: " Giày YeeZy Nam Bóng Đá", href: "#" },
+          ],
+        },
+      ],
+    },
+    {
+      id: "Other Brands",
+      name: "Other Brands",
+      featured: [
+        {
+          name: "New Nike",
+          href: "#",
+          imageSrc:
+            "https://giaysneaker.store/media/magefan_blog/hinh-anh-moi-nhat-cua-doi-giay-sneaker-nike-air-force-1-react-mid-grey-1.jpg",
+          imageAlt:
+            "Models sitting back to back, wearing Basic Tee in black and bone.",
+        },
+        {
+          name: "Basic Shoes",
+          href: "#",
+          imageSrc:
+            "https://kingshoes.vn/data/upload/media/849560-007-giay-nike-air-max-2017-gia-tot-den-king-shoes-1.jpg",
+          imageAlt:
+            "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.",
+        },
+      ],
+      sections: [
+        {
+          id: "Women",
+          name: "Women",
+          items: [
+            { name: "Giày Nike Nữ Thời Trang", href: "#" },
+            { name: "Giày Nike Nữ Chạy Bộ", href: "#" },
+            { name: "Giày Nike Nữ Luyện Tập", href: "#" },
+        
+          ],
+        },
+        {
+          id: "Men",
+          name: "Men",
+          items: [
+            { name: " Giày Nike Nam Thời Trang", href: "#" },
+            { name: " Giày Nike Nam Chạy Bộ", href: "#" },
+            { name: " Giày Nike Nam Luyện Tập", href: "#" },
+            { name: " Giày Nike Nam Bóng Rổ", href: "#" },
+            { name: " Giày Nike Nam Bóng Đá", href: "#" },
           ],
         },
       ],
     },
   ],
-  pages: [
-    { name: "Company", href: "#" },
-    { name: "Stores", href: "#" },
-  ],
+  pages: [{ name: "Sale", href: "#" }],
 };
 
 function classNames(...classes) {
@@ -146,7 +247,7 @@ function classNames(...classes) {
 export default function HeaderNav() {
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
-  const handleCategoryClick = (category, section, item,close) => {
+  const handleCategoryClick = (category, section, item, close) => {
     navigate(`/${category.id}/${section.id}/${item.id}`);
   };
   return (
@@ -327,8 +428,7 @@ export default function HeaderNav() {
         </Dialog>
       </Transition.Root>
 
-      <header className="relative bg-white ">
-      
+      <header className="relative bg-white stick">
         <nav
           aria-label="Top "
           className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
@@ -344,16 +444,11 @@ export default function HeaderNav() {
                 <span className="sr-only">Open menu</span>
                 <Bars3Icon className="h-6 w-6" aria-hidden="true" />
               </button>
-
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
                 <a href="#">
                   <span className="sr-only">Your Company</span>
-                  <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                    alt=""
-                  />
+                  <img className="h-8 w-auto" src="../../publick/img/logo shoes.png" alt="" />
                 </a>
               </div>
 
@@ -419,12 +514,15 @@ export default function HeaderNav() {
                                             />
                                             {item.name}
                                           </a>
-                                          <p
+                                          {/* <p
                                             aria-hidden="true"
                                             className="mt-1"
                                           >
                                             Shop now
-                                          </p>
+                                          </p> */}
+                                          <button className="bg-purple-500 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded m-t2">
+                                            Shop now
+                                          </button>
                                         </div>
                                       ))}
                                     </div>
@@ -459,11 +557,11 @@ export default function HeaderNav() {
                                                     handleCategoryClick(
                                                       category,
                                                       section,
-                                                      item,
-                                                      
+                                                      item
                                                     )
                                                   }
-                                                  className="cursor-pointer hover:text-gray-800"
+                                                  className="cursor-pointer hover:text-gray-800 button-item"
+                                                  id="button-item"
                                                 >
                                                   {item.name}
                                                 </p>
@@ -512,7 +610,7 @@ export default function HeaderNav() {
                     Create account
                   </a>
                 </div> */}
-                  {/* CAD */}
+                {/* CAD */}
                 {/* <div className="hidden lg:ml-8 lg:flex">
                   <a
                     href="#"
@@ -529,15 +627,11 @@ export default function HeaderNav() {
                 </div> */}
                 <div className="hidden lg:ml-8 lg:flex font-normal">
                   <Menu>
-                    <MenuItem >
-                      Profile
-                    </MenuItem>
-                    <MenuItem onClick={()=>navigate("/account/order")}>
+                    <MenuItem>Profile</MenuItem>
+                    <MenuItem onClick={() => navigate("/account/order")}>
                       My Orders
                     </MenuItem>
-                    <MenuItem>
-                    Logout
-                    </MenuItem>
+                    <MenuItem>Log In</MenuItem>
                   </Menu>
                 </div>
                 {/* Search */}

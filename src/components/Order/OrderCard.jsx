@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 const OrderCard = () => {
     const naviagte=useNavigate()
     return (
-    <div onClick={()=>naviagte(`/account/order/${5}`)} className='p-5 shadow-lg hover:shadow-2xl border'> 
+    <div onClick={()=>naviagte(`/account/order/${3}`)} className='p-5 shadow-lg hover:shadow-2xl border'> 
         <Grid container spacing={2} sx={{justifyContent:"space-between"}}>
             <Grid item xs={6}>
                 <div className='flex cursor-pointer'>

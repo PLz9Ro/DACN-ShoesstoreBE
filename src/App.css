@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-purple-500{
+  margin-top: 10px;
+}
+
+/* #bg-footer-coppy{
+  background-color: purple;
+} */
